@@ -1,3 +1,9 @@
+## 📊 Exploratory Data Analysis (EDA)
+
+Performed detailed EDA to understand feature distributions, correlations, and outliers:
+- Detected skew in `capital-gain` and `capital-loss` → log-transformed
+- Detected imbalance in `income` classes → handled with SMOTE
+- Found categorical variables strongly related to income using visual analysis
 # Employee Income Prediction Using Machine Learning (SMOTE Enhanced)
 
 This project aims to predict whether an individual earns more than \$50K per year based on demographic and employment-related features. The model is trained on the **UCI Adult Income Dataset** and uses multiple classification algorithms with proper data preprocessing, feature engineering, and **SMOTE** oversampling to handle class imbalance.
